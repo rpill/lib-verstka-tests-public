@@ -1,0 +1,36 @@
+{
+  "name": "lib-verstka-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest",
+    "lint:eslint": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-tree": "^2.3.1",
+    "deepmerge": "^4.3.1",
+    "directory-tree": "^3.5.1",
+    "file-url": "^4.0.0",
+    "glob": "^8.0.3",
+    "i18next": "^22.5.0",
+    "puppeteer": "^19.5.0",
+    "resemblejs": "^4.1.0",
+    "stylelint": "^15.6.3",
+    "undici": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/css-tree": "^2.3.1",
+    "@types/glob": "^8.0.1",
+    "@types/resemblejs": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.9.5"
+  }
+}

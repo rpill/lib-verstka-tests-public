@@ -1,0 +1,10 @@
+import { DirectoryTree } from 'directory-tree';
+export declare const mkfile: (name: string) => DirectoryTree<Record<string, any>>;
+export declare const mkdir: (name: string, children?: DirectoryTree<Record<string, any>>[]) => DirectoryTree<Record<string, any>>;
+export declare const getChildren: (directory: DirectoryTree) => DirectoryTree<Record<string, any>>[] | undefined;
+export declare const getName: (node: DirectoryTree) => string;
+export declare const isFile: (node: DirectoryTree) => boolean;
+export declare const isDirectory: (node: DirectoryTree) => boolean;
+export declare const map: (callbackFn: (node: DirectoryTree) => DirectoryTree, tree: DirectoryTree) => DirectoryTree;
+export declare const reduce: <T>(callbackFn: (accumulator: T, node: DirectoryTree) => T, tree: DirectoryTree, acc: T) => T;
+export declare const filter: (callbackFn: (node: DirectoryTree) => boolean, tree: DirectoryTree) => DirectoryTree | null;
