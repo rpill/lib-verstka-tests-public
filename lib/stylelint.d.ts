@@ -15,6 +15,5 @@ export declare const stylelint: (source: string, config?: {
         'declaration-block-semicolon-newline-after': string;
         'block-opening-brace-newline-after': string;
         'block-closing-brace-newline-before': string;
-        'property-disallowed-list': string[];
     };
 }) => Promise<Error[]>;

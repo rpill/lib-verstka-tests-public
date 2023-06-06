@@ -7,7 +7,6 @@ declare const _default: {
         'declaration-block-semicolon-newline-after': string;
         'block-opening-brace-newline-after': string;
         'block-closing-brace-newline-before': string;
-        'property-disallowed-list': string[];
     };
 };
 export default _default;
