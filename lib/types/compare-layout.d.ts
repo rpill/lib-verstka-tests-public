@@ -2,7 +2,7 @@ import { Page } from 'puppeteer';
 import { Options as BrowserOptions } from './utils/puppeteer';
 export interface Options {
     browserOptions: BrowserOptions;
-    fullPage?: Boolean;
+    fullPage?: boolean;
     canonicalImage?: string;
     reqPercentage?: number;
 }
