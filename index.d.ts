@@ -1,6 +1,6 @@
 export { runTests } from './lib/run-tests';
 export { mkfile, mkdir } from './lib/utils/immutable-fs-trees';
-export { default as launchBrowser, hasElementBySelectors } from './lib/utils/puppeteer';
+export { launchBrowser, hasElementBySelectors } from './lib/utils/puppeteer';
 export { structure } from './lib/structure';
 export { w3c } from './lib/w3c';
 export { compareLayout } from './lib/compare-layout';
