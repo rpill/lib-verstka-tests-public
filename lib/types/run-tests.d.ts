@@ -1,9 +1,6 @@
-interface Translation {
-    lng: string;
-    resources: object;
-}
+import { Resource } from "i18next";
 export interface Options {
     projectPath: string;
-    translation: Translation;
+    lang: string;
+    resource: Resource;
 }
-export {};
